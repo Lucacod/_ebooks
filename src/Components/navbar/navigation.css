@@ -1,7 +1,4 @@
-.custom-nav {
-    /* background-image: url(https://png.pngtree.com/thumb_back/fw800/background/20230426/pngtree-an-old-library-or-book-room-with-some-books-and-plants-image_2521166.jpg) */
-    
-}
+
 .custom-nav {
     background-position: center;
 }
@@ -40,3 +37,9 @@
     font-family: 'fantasy-font', cursive; /* Font fantasy personalizzato */
     margin-top: 8px; /* Spaziatura dalla navbar */
 }
+
+/* Aggiungi questo stile nel tuo file CSS o nella sezione di stili del componente */
+.custom-nav .navbar-toggler-icon {
+    background-color: #FFD700; /* Sostituisci con il colore desiderato */
+    border-radius: 5px;
+  }

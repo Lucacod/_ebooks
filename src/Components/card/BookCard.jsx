@@ -17,7 +17,7 @@ const BookCard = ({ img, title, category, asin, btn ,}) => {
 
 
     return (
-        <Card style={{ width: '12.5rem' }}>
+        <Card style={{ width: '12rem' }}>
             <Card.Img onClick={toggleBorder}
                 className={`${selected ? "Border" : ''}`}
                 variant="top" src={img} />

@@ -10,7 +10,6 @@ const Navigation = () => {
     return (
         <Navbar expand="lg" className="custom-nav">
             <Container fluid>
-                {/* <Navbar.Brand href="#home"><img src={logo} alt="logo" height="60" width="60" /></Navbar.Brand> */}
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="me-auto">
